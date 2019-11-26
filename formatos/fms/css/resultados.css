@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.publicidadIzquierda, .publicidadDerecha {
+  background-image: linear-gradient(to top, red , blue);
+}
+.publicidadIzquierda p, .publicidadDerecha p{
+  color: white;
+  font-size: 14px;
+  text-shadow: 10px 5px 3px black;
+  padding-bottom: 30px;
+}
+.col{
+  padding: 0px !important;
+}
+.row{
+  margin: 0px !important;
+}
+
+.container-fluid{
+  padding-top: 30px;
+  box-shadow: 0 0 40px black;
+}
+
+h3{
+  font-family: 'Russo One', sans-serif;
+  font-size: 50px;
+  color: black;
+}
+h4{
+  font-family: 'Russo One', sans-serif;
+  font-size: 22px !important;
+
+}
+
+.players {
+  padding-top: 15px;
+  background-color: black;
+  box-shadow:  0px 0px 10px black;
+}
+#player1, #player1Abajo {
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  text-shadow: 0px 0px 15px blue;
+}
+
+#player2, #player2Abajo {
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  text-shadow: 0px 0px 15px red;
+}
+
+
+#gano a, #replica a{
+  background: linear-gradient(0.60turn, red, blue) !important;
+  position: relative;
+  left: 50%;
+  transform:translate(-50%);
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  box-shadow: 0px 5px 10px red, 0px 0px 15px blue, 0px 0px 15px blue;
+  margin-top: 20px;
+}
+
+#ganador{
+
+  margin-top: 15px;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  text-shadow: 0px 0px 10px white;
+}
+
+.easyMode, .hardMode {
+  font-family: 'Russo One', sans-serif;
+  font-size: 20px;
+  color: black;
+  margin-top: 50px;
+  text-decoration: underline;
+
+}
+
+.resultadosFinales {
+  padding: 0px !important;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.resFinalesFixed{
+  width: 100%;
+}
+
+.resultadosFinales h3{
+  text-shadow: 0px 0px 15px white;
+}
+
+#resFinalP1, #resFinalP2 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 25px;
+  color: white;
+  text-shadow: 0px 0px 10px white;
+}
+.finalNegro{
+  background-color: black;
+  height: 100vh + 550px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#chart1, #chart2{
+  max-width: 100% !important;
+  margin: 0px !important;
+}
+
+.batallometro {
+  width: 100%;
+
+}
+
+.h6-batallometro {
+  font-family:'Russo One', sans-serif;
+  font-size: 16px;
+}
+
+/* PROGRESS BAR*/
+
+.progressBar {
+    height: 35px;
+    border-radius: 1em;
+    margin:10px;
+    font-size: 16px;
+    font-family: 'Russo One', sans-serif;
+    padding-right: 20px;
+    padding-top: 5px;
+    max-width: 90vw;
+    background:
+      linear-gradient(-45deg,
+        rgba(255, 255, 255, 0.15) 25%,transparent 25%,
+        transparent 50%, rgba(255, 255, 255, 0.15) 50%,
+        rgba(255, 255, 255, 0.15) 75%,transparent 75%)
+      left/30px 30px repeat-x,
+      linear-gradient(to right, green 0%, yellow 50%, red 100%) left/var(--p,100%) fixed,
+      lightgray;
+  box-shadow:inset 0px -2px 5px rgba(0, 0, 0, 0.5);
+  animation: change 1s linear infinite;
+
+}
+.footer{
+  background-color: black;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer a{
+  color: white;
+}

@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.publicidadIzquierda, .publicidadDerecha {
+  background-image: linear-gradient(to top, blue , red);
+}
+.publicidadIzquierda p, .publicidadDerecha p{
+  color: white;
+  font-size: 14px;
+  text-shadow: 10px 5px 3px black;
+  padding-bottom: 30px;
+}
+
+.container-fluid{
+  overflow: hidden;
+  height: 100%;
+  box-shadow: 0 0 40px black;
+  z-index: 100;
+  padding: 0px !important;
+}
+
+.players {
+  padding-top: 15px;
+  background-color: black;
+  box-shadow:  0px 0px 10px black;
+
+}
+#nombre1 {
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  text-shadow: 0px 0px 10px blue;
+
+}
+
+#nombre2 {
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  text-shadow: 0px 0px 10px red;
+
+}
+
+.menu a {
+  font-family: 'Russo One', sans-serif;
+  font-size: 25px;
+  color: black;
+
+}
+.menu .tema{
+  width: 247px !important;
+  margin-top: 10px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+
+}
+
+.terminarBatalla{
+  margin-bottom: 10px;
+  padding-top: 40px;
+
+}
+.terminarBatalla a{
+  color: black;
+  font-family: 'Russo One', sans-serif;
+  font-size: 25px;
+
+}
+
+#btn-terminarBatalla {
+  background: linear-gradient(0.70turn, red, blue) !important;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 150px;
+  margin-bottom: 20px;
+  font-family: 'Russo One', sans-serif;
+  position: relative;
+  left:50%;
+  transform: translate(-50%);
+}
+
+.btn-outline-danger:active {
+  background-color: green;
+}
+
+/* typed.js*/
+#typedJS {
+  font-family: 'play', sans-serif;
+  font-size: 16px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100vw;
+}
+#easyMode, #hardMode, #tematicas,
+#personajes, #libre, #deluxe {
+  background-color: rgba(145, 145, 145, 0.51);
+
+}
+
+#menu-margin{
+  margin-top: 50px;
+}

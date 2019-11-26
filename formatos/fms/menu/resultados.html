@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>RESULTADOS</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/resultados.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143820322-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-143820322-1');
+    </script>
+
+  </head>
+  <body class="row">
+
+    <div class="col publicidadIzquierda d-none d-md-block text-center">
+      <p></p>
+    </div> <!-- Publicidad izquierda SOLO TABLET y PC-->
+
+
+    <div class="col container-fluid resultados">
+
+      <div class="resultadosFinales">
+
+      <div class="row players">
+        <div class="col">
+          <h4 id="player1" class="text-center text-uppercase"></h4>
+
+        </div>
+        <div class="col">
+          <h4 id="player2" class="text-center text-uppercase"></h4>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h5 class="text-center easyMode">Easy Mode</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p id="em_resPatronesP1" class="text-center"></p>
+        </div>
+
+        <div class="col">
+          <p class="text-center">Patrones</p>
+        </div>
+
+        <div class="col">
+          <p id="em_resPatronesP2" class="text-center"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p class="text-center" id="em_resTecnicasP1"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">Técnica</p>
+        </div>
+        <div class="col">
+          <p id="em_resTecnicasP2" class="text-center"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p id="em_resFlowP1" class="text-center"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">Flow</p>
+        </div>
+        <div class="col">
+          <p id="em_resFlowP2" class="text-center"></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p id="em_resEscenaP1" class="text-center"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">P. escena</p>
+        </div>
+        <div class="col">
+          <p id="em_resEscenaP2" class="text-center"></p>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row finalShadow">
+        <div class="col">
+          <h4 id="em_totalP1" class="text-center"></h4>
+        </div>
+        <div class="col">
+          <h4 class="text-center">FINAL</h4>
+        </div>
+        <div class="col">
+          <h4 id="em_totalP2" class="text-center"></h4>
+        </div>
+
+      </div>
+      <!-- FIn resultados EasyMode-->
+
+
+      <!-- resultados hard mode-->
+      <div class="row">
+        <div class="col">
+          <h5 class="text-center hardMode">Hard Mode</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p id="hm_resPatronesP1" class="text-center"></p>
+        </div>
+
+        <div class="col">
+          <p class="text-center">Patrones</p>
+        </div>
+
+        <div class="col">
+          <p id="hm_resPatronesP2" class="text-center"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p class="text-center" id="hm_resTecnicasP1"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">Técnica</p>
+        </div>
+        <div class="col">
+          <p id="hm_resTecnicasP2" class="text-center"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p id="hm_resFlowP1" class="text-center"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">Flow</p>
+        </div>
+        <div class="col">
+          <p id="hm_resFlowP2" class="text-center"></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p id="hm_resEscenaP1" class="text-center"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">P. escena</p>
+        </div>
+        <div class="col">
+          <p id="hm_resEscenaP2" class="text-center"></p>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row finalShadow">
+        <div class="col">
+          <h4 id="hm_totalP1" class="text-center"></h4>
+        </div>
+        <div class="col">
+          <h4 class="text-center">FINAL</h4>
+        </div>
+        <div class="col">
+          <h4 id="hm_totalP2" class="text-center"></h4>
+        </div>
+      </div>
+      <!--FIN RES HARDMODE-->
+
+      <!-- resultados tematicas-->
+      <div class="row">
+        <div class="col">
+          <h5 class="text-center hardMode">Temáticas</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p id="te_resPatronesP1" class="text-center"></p>
+        </div>
+
+        <div class="col">
+          <p class="text-center">Patrones</p>
+        </div>
+
+        <div class="col">
+          <p id="te_resPatronesP2" class="text-center"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p class="text-center" id="te_resTecnicasP1"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">Técnica</p>
+        </div>
+        <div class="col">
+          <p id="te_resTecnicasP2" class="text-center"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p id="te_resFlowP1" class="text-center"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">Flow</p>
+        </div>
+        <div class="col">
+          <p id="te_resFlowP2" class="text-center"></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p id="te_resEscenaP1" class="text-center"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">P. escena</p>
+        </div>
+        <div class="col">
+          <p id="te_resEscenaP2" class="text-center"></p>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row finalShadow">
+        <div class="col">
+          <h4 id="te_totalP1" class="text-center"></h4>
+        </div>
+        <div class="col">
+          <h4 class="text-center">FINAL</h4>
+        </div>
+        <div class="col">
+          <h4 id="te_totalP2" class="text-center"></h4>
+        </div>
+      </div>
+      <!-- fin res tematicas-->
+
+      <!-- resultados personajes-->
+      <div class="row">
+        <div class="col">
+          <h5 class="text-center hardMode">Personajes</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p id="pe_resPatronesP1" class="text-center"></p>
+        </div>
+
+        <div class="col">
+          <p class="text-center">Patrones</p>
+        </div>
+
+        <div class="col">
+          <p id="pe_resPatronesP2" class="text-center"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p class="text-center" id="pe_resTecnicasP1"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">Técnica</p>
+        </div>
+        <div class="col">
+          <p id="pe_resTecnicasP2" class="text-center"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p id="pe_resFlowP1" class="text-center"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">Flow</p>
+        </div>
+        <div class="col">
+          <p id="pe_resFlowP2" class="text-center"></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p id="pe_resEscenaP1" class="text-center"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">P. escena</p>
+        </div>
+        <div class="col">
+          <p id="pe_resEscenaP2" class="text-center"></p>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row finalShadow">
+        <div class="col">
+          <h4 id="pe_totalP1" class="text-center"></h4>
+        </div>
+        <div class="col">
+          <h4 class="text-center">FINAL</h4>
+        </div>
+        <div class="col">
+          <h4 id="pe_totalP2" class="text-center"></h4>
+        </div>
+      </div>
+      <!-- fin resultados personajes-->
+
+      <!-- resltados libre-->
+      <div class="row">
+        <div class="col">
+          <h5 class="text-center hardMode">Libre</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p id="li_resPatronesP1" class="text-center"></p>
+        </div>
+
+        <div class="col">
+          <p class="text-center">Patrones</p>
+        </div>
+
+        <div class="col">
+          <p id="li_resPatronesP2" class="text-center"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p class="text-center" id="li_resTecnicasP1"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">Técnica</p>
+        </div>
+        <div class="col">
+          <p id="li_resTecnicasP2" class="text-center"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p id="li_resFlowP1" class="text-center"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">Flow</p>
+        </div>
+        <div class="col">
+          <p id="li_resFlowP2" class="text-center"></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p id="li_resEscenaP1" class="text-center"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">P. escena</p>
+        </div>
+        <div class="col">
+          <p id="li_resEscenaP2" class="text-center"></p>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row finalShadow">
+        <div class="col">
+          <h4 id="li_totalP1" class="text-center"></h4>
+        </div>
+        <div class="col">
+          <h4 class="text-center">FINAL</h4>
+        </div>
+        <div class="col">
+          <h4 id="li_totalP2" class="text-center"></h4>
+        </div>
+      </div>
+      <!-- fin resultados libre-->
+
+      <!-- resultado deluxe-->
+      <div class="row">
+        <div class="col">
+          <h5 class="text-center hardMode">Deluxe</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p id="de_resPatronesP1" class="text-center"></p>
+        </div>
+
+        <div class="col">
+          <p class="text-center">Patrones</p>
+        </div>
+
+        <div class="col">
+          <p id="de_resPatronesP2" class="text-center"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p class="text-center" id="de_resTecnicasP1"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">Técnica</p>
+        </div>
+        <div class="col">
+          <p id="de_resTecnicasP2" class="text-center"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p id="de_resFlowP1" class="text-center"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">Flow</p>
+        </div>
+        <div class="col">
+          <p id="de_resFlowP2" class="text-center"></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p id="de_resEscenaP1" class="text-center"></p>
+        </div>
+        <div class="col">
+          <p class="text-center">P. escena</p>
+        </div>
+        <div class="col">
+          <p id="de_resEscenaP2" class="text-center"></p>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row finalShadow">
+        <div class="col">
+          <h4 id="de_totalP1" class="text-center"></h4>
+        </div>
+        <div class="col">
+          <h4 class="text-center">FINAL</h4>
+        </div>
+        <div class="col">
+          <h4 id="de_totalP2" class="text-center"></h4>
+        </div>
+      </div>
+      <!-- fin resultados deluxe-->
+
+
+        <!-- CHART-->
+      <div class="finalNegro">
+
+        <div class="row players">
+          <div class="col">
+            <h4 id="player1Abajo" class="text-center text-uppercase"></h4>
+
+          </div>
+          <div class="col">
+            <h4 id="player2Abajo" class="text-center text-uppercase"></h4>
+
+          </div>
+        </div>
+
+        <div class="row resFinalesFixed">
+          <div class="col">
+              <p id="resFinalP1" class="text-center"></p>
+          </div>
+          <div class="col">
+              <h3 class="text-center text-white-50">Resultado</h3>
+          </div>
+          <div class="col">
+            <p id="resFinalP2" class="text-center"></p>
+          </div>
+        </div>
+
+
+        <div class="">
+          <canvas id="chart1" class=""></canvas>
+
+        </div>
+        <div class="">
+          <canvas id="chart2" class=""></canvas>
+        </div>
+
+
+        <div class="batallometroAnimacion">
+          <h3 class="text-center">Batallómetro</h3>
+          <h6 class="h6-batallometro text-center"></h6>
+          <div class="batallometro ">
+            <div class="progressBar text-right"></div>
+          </div>
+        </div>
+
+        <h1 id="ganador" class="text-center"></h1>
+        <div class="replica" id="replica"></div>
+        <div class="ganador" id="gano"></div>
+      </div><!--fin div finalNegro -->
+
+      <div class="footer">
+        <h4 class="text-center">Instagram</h4>
+        <a href="https://www.instagram.com/rapspreadsheet/" class="" target="_blank"><h5 class="text-center">@rapspreadsheet</h5></a>
+        <h5 class="text-center">#rapspreadsheet</h5>
+        <a href="mailto:info@rapspreadsheet.com"><h5 class="text-center">info@rapspreadsheet.com</h5></a>
+
+      </div>
+    </div>
+
+  </div> <!-- FIN container-fluid-->
+
+  <div class="col publicidadDerecha d-none d-md-block text-center">
+    <p></p>
+  </div><!-- Publicidad derecha SOLO TABLET y PC-->
+
+
+      <!-- Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+      <script src="../js/resultados.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+  </body>
+</html>
