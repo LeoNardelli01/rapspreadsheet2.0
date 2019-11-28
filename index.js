@@ -1,24 +1,11 @@
 $(function(){
-      //granim.js
-      var granimInstance = new Granim({
-        element: '#canvas-basic',
-        direction: 'top-bottom',
-        isPausedWhenNotInView: true,
-        image : {
-          source: 'fondo.png',
-          position: ['center', 'bottom'],
-          blendingMode: 'multiply'
-        },
-        states : {
-            "default-state": {
-                gradients: [
-                    ['#d80009', '#0003d8'],
-                    ['#0003d8', '#d80009'],
-                    ['#d80009', '#0003d8']
-                ]
-            }
-        }
-    });
-    //fin granim.js
+  //TYPED JS
+ var options = {
+   strings: ["Puntúa tus batallas", "Conviértete en jurado","Juega con tus amigos","NUEVOS FORMATOS","versión 2.0 beta", "<h3>¿Estás Listo?" ],
+   typeSpeed: 120,
+   showCursor: false,
+   smartBackspace: true
+ }
+ var typed = new Typed(".typed", options);
 
 });
