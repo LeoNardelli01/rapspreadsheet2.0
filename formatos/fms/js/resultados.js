@@ -190,17 +190,17 @@ $(function(){
       /*
       activar este boton cuando pueda hacer lo de las replicas
       */
-      var btn_replica = "<a id='gano' class='btn btn-lg' href='../index.html'>Nueva Batalla</a>";
+      var btn_replica = "<a id='gano' class='btn btn-lg' href='../../formatos.html'>REPLICA</a>";
       $("#replica").append(btn_replica);
       $("#ganador").html("REPLICA!");
 
     } else if(resFinalesP1 > resFinalesP2 ){
-      var btn_ganoP1 = "<a id='gano' class='btn btn-lg' href='../index.html'>Nueva Batalla</a>";
+      var btn_ganoP1 = "<a id='gano' class='btn btn-lg' href='../fms.html'>Nueva Batalla FMS</a>";
       $("#gano").append(btn_ganoP1);
 
       $("#ganador").html("Ganó " + player1);
     } else {
-        var btn_ganoP2 = "<a id='gano' class='btn btn-lg' href='../index.html'>Nueva Batalla</a>";
+        var btn_ganoP2 = "<a id='gano' class='btn btn-lg' href='../fms.html'>Nueva Batalla FMS</a>";
         $("#gano").append(btn_ganoP2);
         $("#ganador").html("Ganó " + player2);
     }
@@ -376,6 +376,8 @@ $(function(){
     $(".h6-batallometro").html((parseInt(resFinalesP1) + parseInt(resFinalesP2)) + " Pts totales (nivel de batalla)")
 
     //nueva batalla btn
+
+
     $("#gano").click(function(e){
       var r = confirm("Comenzar batalla\n ¿Estás seguro?");
 
@@ -383,6 +385,15 @@ $(function(){
         localStorage.clear();
 
       } else{
+        e.preventDefault();
+      }
+    });
+
+    $("#volverMenu").click(function(e){
+      var r = confirm("¿Volver al Menu?");
+      if (r) {
+        localStorage.clear();
+      }else{
         e.preventDefault();
       }
     });

@@ -16,6 +16,8 @@ body{
 }
 .container-fluid{
   margin-top: 20px;
+
+
 }
 header{
   height: 100px;
@@ -34,4 +36,12 @@ h1{
   left: 50%;
   transform: translate(-50%);
   width: 100%;
+}
+
+.formatos{
+  padding: 30px;
+}
+.presentacion{
+  color: black;
+  
 }
