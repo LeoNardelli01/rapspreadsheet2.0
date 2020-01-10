@@ -1,0 +1,15 @@
+body{
+  background-image: linear-gradient(to top, red , blue);
+  height: 100vh;
+}
+
+input {
+  position: absolute;
+  left: 50%;
+  transform:translate(-50%);
+}
+a {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}

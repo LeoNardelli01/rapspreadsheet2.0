@@ -1,8 +1,15 @@
 $(function(){
 
-  $(".formato").click(function(){
-    var formato = $(".formato").attr('a');
-    alert(formato);
+  $(".formato").click(function(e){
+    var tipoFormato = $(this).html();
+    console.log(tipoFormato);
 
+    var r = confirm("¿Comenzar "+ tipoFormato + "?");
+    if(!r){
+      e.preventDefault();
+    }
   });
+  
+
+
 });

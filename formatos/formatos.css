@@ -1,0 +1,7 @@
+.container-fluid{
+  background-image: linear-gradient(to top, red , blue) !important;
+  min-height: 700px;
+}
+body{
+  background-image: linear-gradient(to top, red , blue) !important;
+}

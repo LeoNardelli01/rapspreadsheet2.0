@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container-fluid{
+  background-image: linear-gradient(to top, red , blue) !important;
+}
+p{
+  font-family: 'Play', sans-serif;
+}
